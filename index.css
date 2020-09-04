@@ -1,0 +1,796 @@
+:root {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  #hide_menu_item {
+     display:none;
+   }
+ }
+ /*-------------------FADE ONE IMG TO ANOTHER-------------
+ #cf {
+  position: relative;
+
+}
+
+#cf img {
+  position: absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+
+@keyframes cf3FadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#cf img.top {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 3s;
+animation-direction: alternate;
+}
+/*-------------------FADE ONE IMG TO ANOTHER END-------------*/
+#cnavbarfont
+{
+    color:rgb(12, 8, 9) ;
+    
+}
+
+#ccontactusbtn{
+  background-color: rgb(238, 128, 54); 
+  color:white; 
+  border: none;
+   border-radius: 50px; 
+   font-size: 1.4rem;
+   font-weight: bold;
+   padding:  14px 28px;
+}
+
+#ccontactusbtn:hover{
+   opacity:0.6;
+}
+
+@media screen and (max-width: 370px) {
+   #rlogosize {
+    width:100%;
+     height:100%;
+    }
+  }
+
+@media screen and (max-width: 730px) {
+#ricon{
+      width:60vw;
+      border: none;
+      display: block;
+      background-color:rgb(238, 128, 54);
+      border-radius: 30px 30px 30px 30px;
+      cursor: pointer;
+      text-align: center;
+}
+#ricon:hover{
+  background-color: white;
+ 
+}
+} 
+@media screen and (max-width: 730px) {
+ 
+  #ccontactusbtn{
+      width:75vw;
+      border: none;
+      display: block;
+      background-color:rgb(238, 128, 54);
+      color: white;
+      border-radius: 50px;
+      cursor: pointer;
+      text-align: center;
+     
+     
+    }
+    
+    #ccontactusbtn:hover {
+      opacity:0.6;
+    }
+  }
+
+  /*------------------homepage banner starts here--------------*/
+  #bg-home-banner{
+    background-image: url('./images/home_banner.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    min-height: auto;
+  
+  }
+  @media screen and (max-width: 669.9px){
+    #bg-home-banner{
+      background-image: none;
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: cover;
+      min-height: auto;
+    
+    }
+    #home_banner_section_features1{
+      text-align: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      padding: 1%;
+      background-color: rgb(27,82,146);
+      border-radius: 10%;
+    }
+  
+    #home_banner_section_features2{
+      text-align: center;
+    color: white;
+    background-color: gray;
+    }
+  
+    #home_banner_section_features3{
+      text-align: center;
+      color: rgb(238, 128, 54);
+      font-weight: bold;
+      background-color: rgb(238, 128, 54);
+    }
+    #home_banner_section_features6{
+      text-align: center;
+      color: white;
+      font-size:1.4rem;
+      background-color: grey;
+    }
+    
+  }
+  #home_banner_section_features1{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1%;
+  }
+
+  #home_banner_section_features2{
+    text-align: center;
+    color: white;
+    font-size: 1.0rem;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #home_banner_section_features3{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+
+  #benefit_card_features{
+    background-color: rgb(203, 203, 214);
+  }
+  #benefit_icon_features{
+  border: none;
+  height: 70%;
+  width: 70%;
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:10%;
+  margin-bottom:10%;
+
+  }
+   
+  #chooseus_icon_features{
+    display:block;
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 25%;
+    margin-top:20%;
+    margin-bottom: 20%;
+   
+  }
+
+  #home_banner_section_features4{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+ 
+#zoom:hover {
+  transition: transform .3s;
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/* Create three equal columns that floats next to each other */
+.p {
+  float: left;
+  width: 20%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.k:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the five columns stack on top of each other instead of next to each other*/
+@media screen and (max-width:575.98px) {
+  .p {
+   width:100%;
+  
+  }
+  #benefit_icon_features{
+    border: none;
+    height: 40%;
+    width: 40%;
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:5%;
+    margin-bottom:5%;
+    }
+     
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+   .p1{
+    width:33%;
+   } 
+  }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .p2{
+     width:32%;
+    align-self: center;
+    } 
+   }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .p3{
+     width:20%;
+    } 
+   }
+
+
+
+  #home_banner_section_features5{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+
+  #homebannerbutton{
+    background-color:  rgb(238, 128, 54);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px ;
+    font-size: 1.4rem;
+    padding: 1%;
+  }
+
+  #homebannerbutton:hover{
+   opacity: 0.8;
+   background-color: white;
+   color:rgb(238, 128, 54);
+  }
+
+  #home_banner_section_features6{
+    text-align: center;
+    color: white;
+    font-size:1.4rem;
+  }
+  
+/*************mobile-banner offer start**********/
+@media screen and (max-width: 669.9px){
+  .offer-mobile {
+    background: rgb(238, 128, 54);
+    padding: 20px 0;
+    text-align: center;
+    display: block;
+}
+
+.offer-mobile button.sp-offer {
+  border: none;
+  background: #ffc600;
+  color: #000000;
+  padding: 6px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  cursor: pointer;
+}
+.offer-mobile h2 {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  position: relative;
+  margin: 10px 0;
+}
+.offer-mobile h3 {
+  font-size: 15px;
+  font-weight: 300;
+  color: #FFFFFF;
+  background: #000000;
+  margin: 0;
+  line-height: 40px;
+}
+.offer-mobile h4 {
+    margin: 10px 0;
+    color: #FFFFFF;
+}
+
+}
+
+
+@media screen and (min-width: 670px){
+  .offer-mobile {
+    display: none;
+}
+
+}
+
+
+/******************mobile banner offer end************/
+/*--------------------------home page banner ends here-------------*/
+
+/*-----homepage header and content section1-service card strts here-------------*/
+
+#h1_features{
+  color:rgb(61, 114, 228);
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#title1{
+  text-align: center; 
+  color:rgb(238, 128, 54);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+#card_style{
+padding: 1%;
+}
+
+#service_card{
+  background-color:white;
+  border-color: rgb(167, 167, 156);
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 5px 5px 2px grey;
+}
+
+#service_card:hover{
+  background-color: black;
+  color: white;
+  background-image: url('./images/cloud_bg_new.jpg');
+  background-attachment: fixed; 
+  min-height: auto;
+  border:none;
+  box-shadow:none;
+}
+
+#service_card_button{
+  background-color: rgb(238, 128, 54);
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+padding: 1%;
+}
+#service_card_button:hover{
+  opacity: 0.8;
+  background-color: white;
+  color:rgb(238, 128, 54);
+  
+}
+
+#service_icon_features{
+  width: 25%;
+   height: 10;
+    margin: 3%;
+    
+}
+
+
+@media screen and (max-width: 312px) {
+  #service_card_button{
+    font-size: 1.2rem;
+    padding:1%;
+  }
+}
+/*--------------home page content section1-service cards end here--------*/
+
+/*-----------------------content section 2-services for whom -industry icons start here---------------------*/
+/*-----------------------content section -services for whom -industry icons start here---------------------*/
+  
+#h2_features{
+  color:rgb(61, 114, 228);
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#bg_industry_icon_features{
+  background-color: white;
+   width: 75%; 
+   border-radius: 50%;
+   box-shadow: 5px 5px 2px grey;
+ display: inline-block;
+}
+#industry_icon_features{
+  width:100%;
+   padding:25%;
+}
+
+#industry_icon_text{
+  margin-top:3%;
+  margin-left:auto;
+  margin-right: auto;
+ 
+  width: 50%;
+
+}
+
+#zoom:hover {
+  transition: transform .3s;
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* Create three equal columns that floats next to each other */
+.indu_icon {
+  float:left;
+  width: 20%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.k2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the five columns stack on top of each other instead of next to each other*/
+
+@media screen and (max-width:359.98px) {
+  .indu_icon {
+   width:100%
+  }
+  #bg_industry_icon_features{
+    width: 55%; 
+  }
+}
+@media (min-width: 360px) and (max-width:575.98px) {
+  .indu_icon {
+   width:50%
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+   .indu_icon1{
+    width:33%;
+   }   
+  }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .indu_icon2{
+     width:32%;
+    align-self: center;
+    } 
+   }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .indu_icon3{
+     width:20%;
+    } 
+   }
+
+/*-----------------------content section -services for whom -industry icons end here---------------------*/
+
+/*-----------------------content section 2-services for whom -industry icons end here---------------------*/
+
+/*------------------------------------------------new content section3-why to choose start------------------------------------*/
+#bg-chooseus{
+  background-image: url('./images/bg-chooseus-people.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  min-height: auto;
+  
+}
+#chooseus_title_features{
+  text-align: center;
+  color:white;
+}
+#chooseus_icon_features{
+  display:block;
+  width: 25%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 25%;
+  margin-top:20%;
+  margin-bottom: 20%;
+ 
+}
+
+#chooseus_card_style{
+width: 100%;
+border-color: black;
+background-color: white;
+}
+#chooseus_card_style:hover{
+  transition: transform .3s;
+  transform: scale(1.1); 
+  }
+#chooseus_card_text{
+  text-align: center;
+}
+
+/* Create three equal columns that floats next to each other */
+.chooseus_icon {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.k3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the five columns stack on top of each other instead of next to each other*/
+@media screen and (max-width:575.98px) {
+  .chooseus_icon {
+   width:100%
+  }
+  
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+   .chooseus_icon{
+    width:50%;
+   } 
+  
+  }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .chooseus_icon{
+     width:50%;
+    } 
+    
+   }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .chooseus_icon{
+     width:25%;
+    } 
+   
+   }
+
+/*-------------------------------------------------new content section3-why to choose end------------------------------------*/
+
+
+/*-----------------------------------------------call_us_div start------------------------------*/
+
+#call_us_div{
+  background-color: rgb(238, 128, 54);
+  color:white;
+  text-align:center;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+#call_us_content{
+  color:white;
+}
+#call_us_content:hover{
+ opacity: 0.8;
+ color: rgb(238, 128, 54);
+ background-color:white;
+}
+#call_us_div:hover{
+  color: rgb(238, 128, 54);
+ background-color:white;
+}
+
+
+@media screen and (max-width: 601px) {
+#call_us_div{
+  display:none;
+}
+}
+
+
+/*----------------------------------------------------call_us_div end------------------------------*/
+
+/*-----------------------new cntent section5-client testimonial start------------------*/
+
+#bg_testimonial{
+  /*background-image: url('./images/moving cloud_rocket.gif');
+    background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  min-height: auto;
+  background-color: rgb(214, 221, 240);
+  background-color: rgb(201, 214, 231);*/
+ background-color:  rgb(27,82,146);
+color: white;
+}
+
+#header_testimonial{
+  text-align: center;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#client_img_feature{
+  margin-left: auto;
+  margin-right: 25%;
+  display: block;
+  width: 50%;
+  margin-top: 25%;
+  margin-bottom:auto;
+}
+@media screen and (max-width: 760px) {
+  #client_img_feature {
+  margin-left: 10%;
+  margin-right: auto;
+  display: block;
+  width: 25%;
+  margin-top: 10%;
+  margin-bottom:auto;
+   }
+ }
+
+#star_features{
+  margin-left: auto;
+    margin-right: -10%;
+    display: block;
+    margin-top: -18%;
+    width: 45%;
+}
+
+@media screen and (max-width: 1460px) {
+  #star_features {
+   display:none;
+   }
+ }
+
+/*-----------------------new cntent section5-client testimonial end------------------*/
+
+/*---------------------------------new content section6-F.A.Q Start------------------------------------
+
+#header_FAQ{
+  text-align: center;
+  color: rgb(61, 114, 228);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+-----------------------------------new content section6-F.A.Q end------------------------------------*/
+
+/*-----------------------new cntent section7-contact form start------------------*/
+
+#header_contact_form{
+  text-align: center;
+  color: rgb(61, 114, 228);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-bottom:3.5%;
+  padding-top:1%;
+}
+
+#free_quote_form_title{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 1.4rem;
+ 
+}
+
+#free_quote_form_subtitle{
+  text-align: center;
+  padding-bottom: 1.5%;
+  font-weight: normal;
+}
+
+#free_quote_icon1{
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: -6%;
+width:8%;
+}
+
+#free_quote_icon2{
+  margin-left: -9%;
+  margin-right: auto;
+  display: block;
+  margin-top: -8%;
+  width: 12%;
+  transform: rotate(-20deg); 
+  -webkit-transform: rotate(-20deg);
+  }
+
+  #free_quote_icon3{
+    margin-left: auto;
+    margin-right: -7%;
+    display: block;
+    margin-top: -12%;
+    width: 12%;
+    transform: rotate(20deg); 
+    -webkit-transform: rotate(20deg); 
+    }
+
+    @media screen and (max-width: 600px) {
+      #hide_free_quote_icon {
+         display:none;
+       }
+     }
+
+#submit_btn_feature{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+#submit_button{
+  background-color:  rgb(238, 128, 54);
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px ;
+  font-size: 1.4rem;
+  padding: 1%;
+}
+
+#submit_button:hover{
+ opacity: 0.8;
+ background-color: white;
+ color:rgb(238, 128, 54);
+}
+/*-----------------------new content section7-contact form end------------------*/
+
+/*--------------------new content section8-footer start---------*/
+
+
+
+/*--------------------new content section8-footer start---------*/
+/*-------sticky footer for mobile start----------------*/
+
+
+@media screen and (max-width: 600px) {
+  #sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    background-color: tomato;
+    padding:3%;
+    font-size: 1rem;
+  }
+ }
+
+ @media screen and (min-width: 601px) {
+  #hide_footer_item{
+    display:none;
+  }
+ }
+
+
+/*-------sticky footer for mobile end----------------*/
