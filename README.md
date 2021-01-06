@@ -9,7 +9,7 @@ TECHNOLOGIES: PHP, MYSQLI, AJAX, JAVASCRIPT, BOOTSTRAP[USER VIEW], MATERIALISE C
 Its a blog content management system.
 ADMIN PANEL: One can register himself by signing up, then can logged in. after login admin can see dashboard, where he can create,view,edit,delete posts. 
 Admin can approve or remove user's comment. without admin's approval comments will not be shown to the users.
-Admin can change its password from the setting too. thus all CRUD Operations are included in Admin panel. and then afmin can do logout.
+Admin can change its password from the setting too. thus all CRUD Operations are included in Admin panel. and then admin can do logout.
 
 USER VIEW: User will see all the blog posts created by admin, user can view particular article.
 User can search for the particular blog post. at Sidebar user can see trending blog posts, Trending posts show post at the top in descending order,
